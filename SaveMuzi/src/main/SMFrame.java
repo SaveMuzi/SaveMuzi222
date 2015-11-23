@@ -39,11 +39,14 @@ public class SMFrame extends JFrame{
 		contentPane.add("lobbyPanel", lobbyPanel);
 		contentPane.add("roomPanel", roomPanel);
 		contentPane.add("gamePanel", gamePanel);
-		
-		changePanel("titlePanel");
-		
-		
+
 		setVisible(true);
+		changePanel("homePanel");
+		
+		
+		
+		
+		homePanel.start();
 	}
 	
 	public void SequenceControl() {
